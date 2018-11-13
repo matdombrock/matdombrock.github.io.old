@@ -1,0 +1,235 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+
+
+// Our variables
+$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$base-font-size:   16px;
+$base-font-weight: 400;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.5;
+
+$spacing-unit:     30px;
+
+$text-color:       rgb(201, 201, 201);
+$background-color: rgb(41, 41, 41);
+$background-dark: darken($background-color, 10%);
+$background-mid-dark: darken($background-color, 5%);
+$background-light: lighten($background-color, 10%);
+$brand-color:      #2ae277;
+$brand-color-light: lighten($brand-color, 25%);
+$brand-color-dark:  darken($brand-color, 25%);
+
+$grey-color:       #838383;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
+
+$my-pic-height: 15vh;
+$card-img-height: 100px;
+$card-img-height-stretch: 110px;
+
+// Width of the content area
+$content-width:    800px;
+
+$on-palm:          600px;
+$on-laptop:        800px;
+
+
+
+// Use media queries like this:
+// @include media-query($on-palm) {
+//     .wrapper {
+//         padding-right: $spacing-unit / 2;
+//         padding-left: $spacing-unit / 2;
+//     }
+// }
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+
+
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+        "base",
+        "layout",
+        "syntax-highlighting"
+;
+
+// mycode
+hr{
+    background-color:$grey-color-dark;
+    color:$grey-color-dark;
+    border-color:$grey-color-dark;
+}
+.center{
+    text-align: center;
+}
+.site-nav .page-link {
+    color:white;
+}
+.site-header{
+    background:$brand-color-dark;
+    background-image:url("../assets/img/starnight.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size:cover;
+    border:none;
+    border-bottom:1em solid rgba(0, 0, 0, 0.322);
+    text-shadow: 0 0 10px black;
+    margin-bottom:$my-pic-height/2;
+}
+.site-title, .site-title:visited{
+    color:white;
+}
+.post-title, .page-heading{
+    color:$brand-color;
+}
+.intro-text{
+    color:$brand-color;
+}
+.my-pic{
+    margin: 0 auto;
+    text-align:center;
+    position:relative;
+    bottom:-$my-pic-height/2;
+    margin-top:10vh;
+}
+.my-pic img{
+    max-height:$my-pic-height;
+    border-radius:100%;
+    border:0.25em solid white;
+    box-shadow: 0px 0px 25px white;
+}
+.quote-text{
+    font-style: italic;
+    font-weight: bold;
+    border-left:0.1em solid $brand-color;
+    padding:1em;
+}
+.section-text{
+    color:$grey-color;
+}
+.section-text h2{
+    color:$text-color;
+    margin-bottom:0;
+}
+.special-text{
+    font-style: italic;
+    color:$brand-color;
+    font-weight: bolder;
+}
+.contact-button-wrap{
+    text-align:center;
+    padding:1em;
+}
+.contact-button{
+    display:inline;
+    border:0.1em solid $text-color;
+    padding:0.25em;
+    font-size:1.25em;
+    transition:color 0.5s, border-color 0.5s;
+    cursor: pointer;
+}
+.contact-button:hover{
+    color:$brand-color;
+    border-color:$brand-color;
+}
+.org-wrap{
+    padding:0.5em;
+    background:$background-dark;
+}
+.org-logo{
+    max-height:15vh;
+}
+.site-footer{
+    padding-top: $spacing-unit 0;
+    padding-bottom: 0;
+}
+
+.card{
+    display: inline-block;
+    color:$text-color;
+    background:$background-light;
+    height:230px;
+    max-height:230px;
+    width:200px;
+    max-width:200px;
+    text-align:center;
+    box-shadow:10px 10px 10px black;
+    margin-bottom:1em;
+    transition: box-shadow 0.2s;
+    cursor: pointer;
+    padding:0.5em;
+    padding-top:0;
+    padding-bottom:1em;
+    vertical-align: top;
+    border:10px solid $background-mid-dark;
+    transition:background 0.2s, border 0.2s;
+}
+.card:visited{
+    color:$text-color!important;
+}
+.card:hover{
+    background:$background-mid-dark;
+    border-color:$background-light;
+    box-shadow:5px 5px 5px black;
+    text-decoration: none;
+}
+.card-img{
+    text-align:center;
+    position:relative;
+    top:-5vh;
+}
+.card-img img{
+    max-height:$card-img-height;
+    height:$card-img-height;
+    max-width:$card-img-height;
+    width:$card-img-height;
+    border-radius:100%;
+    border:0.1em solid white;
+    box-shadow:5px 5px 5px black;
+    transition:height 0.5s, width 0.5s, max-height 0.5s, max-width 0.5s;
+}
+.card-img img:hover, .card:hover .card-img img{
+    height:$card-img-height-stretch;
+    max-height:$card-img-height-stretch;
+    width:$card-img-height-stretch;
+    max-width:$card-img-height-stretch;
+}
+.card-title{
+    font-weight:bolder;
+    color:$brand-color;
+}
+
+
+@media screen and (max-width: 600px){
+    .site-nav .menu-icon > svg path {
+        fill:$brand-color;
+    }
+}
+//SCROLLBAR
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: $background-dark; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: $brand-color; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: $brand-color-light; 
+}

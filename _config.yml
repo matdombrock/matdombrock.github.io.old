@@ -1,0 +1,21 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: MATHIEU DOMBROCK
+email: dombrock.mathieu@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  My name is Mathieu Dombrock and I’m a 
+  freelance software developer specializing in web based technologies. 
+  I ❤️ the internet and want to help you use it to succeed! 
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+twitter_username: matdombrock
+github_username:  matdombrock
+
+# Build settings
+markdown: kramdown
