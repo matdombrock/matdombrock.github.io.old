@@ -63,12 +63,17 @@ $on-laptop:        800px;
 
 // mycode
 hr{
-    background-color:$grey-color-dark;
-    color:$grey-color-dark;
-    border-color:$grey-color-dark;
+    background-color:$text-color;
+    color:$text-color;
+    border-color:$text-color;
 }
 .center{
     text-align: center;
+}
+body{
+    background-image:url("../assets/img/testbg.png");
+    background-attachment: fixed;
+    background-size: cover;
 }
 .site-title{
     xborder:0.1em solid white;
@@ -80,6 +85,7 @@ hr{
 }
 .site-nav .page-link {
     color:white;
+    text-transform: uppercase;
 }
 .site-header{
     background:$brand-color-dark;
@@ -92,6 +98,11 @@ hr{
     text-shadow: 0 0 10px black;
     margin-bottom:$my-pic-height/2;
 }
+.header-outer-wrap{
+    background:rgba(0, 0, 0, 0.13);
+    display:block;
+    max-width:100%;
+}
 .site-title, .site-title:visited{
     color:white;
 }
@@ -102,6 +113,7 @@ hr{
     color:$brand-color;
 }
 .my-pic{
+    display: block;
     margin: 0 auto;
     text-align:center;
     position:relative;
@@ -142,16 +154,23 @@ hr{
 }
 .contact-button{
     display:inline;
+    color:$text-color;
     border:0.1em solid $text-color;
     padding:0.25em;
     font-size:1.25em;
     transition:color 0.5s, border-color 0.5s;
     cursor: pointer;
+    color:$text-color;
 }
 .contact-button:hover{
-    color:$brand-color;
+    color:$brand-color!important;
     border-color:$brand-color;
+    text-decoration:none;
 }
+.contact-button:visited{
+    color:$text-color;
+}
+
 .org-wrap{
     padding:0.5em;
     background:$background-dark;
@@ -162,6 +181,7 @@ hr{
 .site-footer{
     padding-top: $spacing-unit 0;
     padding-bottom: 0;
+    background-color:$background-color;
 }
 
 .card{

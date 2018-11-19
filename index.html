@@ -1,21 +1,24 @@
 ---
 layout: default
-title: Home
 ---
 
 <div class="home">
 
 
     <h1 class="center ">Hello :)</h1>
-    <h2 class="intro-text">My name is Mathieu Dombrock and I’m an experienced freelance software developer specializing in web technologies.</h2>
+    <h2 class="intro-text">My name is Mathieu Dombrock. I’m an experienced freelance software developer specializing in web technologies.</h2>
     <div class="quote-text">
     I think that the internet is the possibly the most powerful tool that humanity has ever invented. My goal is to help you harness this amazing technology to build something great. 
     </div>
-    <video width="100%" height="auto" muted autoplay controls>
-        <source src="{{ "/assets/vid/untitled.mp4" | prepend: site.baseurl }}" type="video/mp4">
+    <br>
+    <hr>
+    <video width="100%" height="auto" controls loop poster="{{ "/assets/vid/thumb/intro-vid.png" | prepend: site.baseurl }}">
+        <source src="{{ "/assets/vid/intro.mp4" | prepend: site.baseurl }}" type="video/mp4">
       Your browser does not support the video tag.
     </video>
+    <br>
     <hr>
+    <br>
     <h1>My Development Philosophy is simple:</h1>
     <div class="section-text">
         <h2>The web <span class="special-text">should be fluid</span></h2>
@@ -24,24 +27,29 @@ title: Home
         By using a "Mobile First" approach,
         I ensure that your software is both usable and aesthetically pleasing on every device. 
     </div>
+    <br>
     <div class="section-text">
         <h2>The web <span class="special-text">should be intuitive</span></h2>
         The last thing you want is for your users to walk away in frustration. 
         By using well established and proven design patterns I make sure your user interface makes sense and works for everyone.<br>
     </div>
+    <br>
     <div class="section-text">
         <h2>The web <span class="special-text">should be fast</span></h2>
         The average internet user will wait about 2 seconds at most for content to load before clicking the back button.
         Through experience and careful planning, I can create engaging experiences and robust web software that preforms nearly as fast as a native app.<br>
     </div>
+    <br>
     <div class="section-text">
         <h2>The web <span class="special-text">should work</span></h2>
         Last but not least, the web should work for its users.
         No software will every be perfect, and downtime will never be a thing of the past.
         However, I believe that though diligence and prudence, we can build a better, more stable web experiences for everyone.
     </div>
+    <br>
     <hr>
+    <br>
     <div class="contact-button-wrap">
-        <div class="contact-button">- CONTACT ME -</div>
+        <a href="contact" class="contact-button">- CONTACT ME -</a>
     </div>
 </div>
