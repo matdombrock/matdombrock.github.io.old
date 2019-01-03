@@ -2,7 +2,7 @@
 layout: page
 exclude: true
 ---
-# JavaScript Promises Explained
+## JavaScript Promises Explained
 A lot of the power of JavaScript comes from the fact that it's an asynchronous language. This means that we don't have to wait for one operation to finish before moving on to another. Some languages do this with threading, but sine JS is a single-threaded language, we use callbacks or promises. 
 
 If you are already familiar with the concept of a callback then a the idea of a promise should be pretty easy to grasp. A promise works in much the same way as a callback but allows us to write cleaner code that is is easier to read and debug. 
