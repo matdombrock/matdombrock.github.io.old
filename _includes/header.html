@@ -14,13 +14,8 @@
         </a>
 
         <div class="trigger">
-          {% for my_page in site.pages %}
-            {% unless page.exclude %}
-              {% if my_page.title %}
-              <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
-              {% endif %}
-            {% endunless %}
-          {% endfor %}
+              <a class="page-link" href="{{ 'contact.html' | prepend: site.baseurl }}">Contact</a>
+              <a class="page-link" href="{{ 'portfolio.html' | prepend: site.baseurl }}">Portfoliox</a>
         </div>
       </nav>
 
