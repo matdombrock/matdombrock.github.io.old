@@ -148,6 +148,6 @@ read.then(function(data){
 
 ## Further Reading
 
-[MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
+[MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise).
 
-[Google Developers](https://developers.google.com/web/fundamentals/primers/promises)
+[Google Developers](https://developers.google.com/web/fundamentals/primers/promises).
