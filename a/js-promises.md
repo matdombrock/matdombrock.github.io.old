@@ -1,7 +1,7 @@
 ---
 layout: page
 exclude: true
-title: JS Promises Explained
+title: JavaScript Promises Explained
 ---
 A lot of the power of JavaScript comes from the fact that it's an asynchronous language. This means that we don't have to wait for one operation to finish before moving on to another. Some languages do this with threading, but sine JS is a single-threaded language, we use callbacks or promises. 
 
