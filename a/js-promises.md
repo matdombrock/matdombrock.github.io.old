@@ -3,6 +3,22 @@ layout: page
 exclude: true
 title: JavaScript Promises Explained
 ---
+
+## A Quick Example
+Before I get started I will show a quick example of an implementation of promises for reference.
+```javascript
+function createPromise(input){
+    return new Promise(function(resolve,reject){
+        //do something
+        resolve(input);
+    })
+}
+let testPromise = createPromise(1);
+testPromise.then(function(data){
+    console.log(data);
+});
+```
+## Introduction
 A lot of the power of JavaScript comes from the fact that it's an asynchronous language. This means that we don't have to wait for one operation to finish before moving on to another. Some languages do this with threading, but sine JS is a single-threaded language, we use callbacks or promises. 
 
 If you are already familiar with the concept of a callback then a the idea of a promise should be pretty easy to grasp. A promise works in much the same way as a callback but allows us to write cleaner code that is is easier to read and debug. 
