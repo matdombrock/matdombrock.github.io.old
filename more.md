@@ -7,7 +7,10 @@ permalink: /more/
 A few articles written by myself.
 
 ---
+## [3D Models](https://sketchfab.com/dombrock.mathieu)
+See my 3D models on Sketchfab.
 
+---
 <!---
 ## [Projects]({{ '/projects/' | prepend: site.baseurl }})
 Some of my non-commercial open source projects.
