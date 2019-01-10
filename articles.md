@@ -18,3 +18,7 @@ Unlike browser-based JavaScript, NodeJs gives us native access to the file syste
 A tutorial aimed at newcomers to Git and version control, or those who are familiar but want to learn how to interact with Git through the command line.
 
 ---
+## [Git Submodules]({{ '/a/git-submodules' | prepend: site.baseurl }})
+
+
+---
