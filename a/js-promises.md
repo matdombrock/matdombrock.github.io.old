@@ -162,6 +162,24 @@ read.then(function(data){
 });
 ```
 
+## [NOTE] Async/Await
+We can also make use of the new ```await``` functionality. This allows us to use promises in a little more friendly manner. 
+```javascript
+var test = function (data){
+    return new Promise(function(resolve,reject){
+        setTimeout(() => resolve(data), 1000)
+    });
+}
+async function test2(){
+    var t = await test("test");
+    return t;
+}
+test2().then(function(data){
+    console.log(data);
+});
+// Outputs "test" after 1 second.
+```
+
 ## Further Reading
 
 [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise).
