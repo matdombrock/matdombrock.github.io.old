@@ -18,6 +18,10 @@ Unlike browser-based JavaScript, NodeJs gives us native access to the file syste
 A tutorial aimed at newcomers to Git and version control, or those who are familiar but want to learn how to interact with Git through the command line.
 
 ---
+## [Using Parasails Utility Functions With SailsJS to Re-use Front-End Code]({{ '/a/sailsjs-parasails-utility-functions' | prepend: site.baseurl }})
+A quick guide on using Parasails utility functions to re-use front-end Javascript code in SailsJS.
+
+---
 ## [Git Submodules]({{ '/a/git-submodules' | prepend: site.baseurl }})
 
 
