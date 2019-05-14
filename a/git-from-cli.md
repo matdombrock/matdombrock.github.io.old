@@ -4,7 +4,7 @@ exclude: true
 title: Using Git From The Command Line Interface
 ---
 ## Introduction
-Git is a powerful tool that is used to track software version and help teams collaborate on large projects. GitHub is an awesome website where people can share, show off and collaborate on open-source software.
+Git is a powerful tool that is used to track software versions and help teams collaborate on large projects. GitHub is an awesome website where people can share, show off and collaborate on open-source software.
 
 Version control tools like git can be extremely useful. However, to the beginning or intermediate programmer a tool like git can seem pretty daunting and the available tutorials all too often offer a total information overload. This text aims to get you started using GitHub from the command line in as few steps as possible.
 
@@ -29,7 +29,7 @@ git push -u origin master
 ```
 
 ## Setup
-First lets set up your GitHub on your local machine (at this time you should have already visited GitHub.com to setup and register your account).If you have not already installed git on your machine do:
+First let's set up your GitHub on your local machine (at this time you should have already visited GitHub.com to setup and register your account).If you have not already installed git on your machine do:
 ```sudo apt install git```
 (This line assumes that you are using aptitude as your package manager and Linux as your OS. If this is not the case see [Installing Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).)
 
@@ -54,7 +54,7 @@ We have a new directory in which to store our project, so lets go ahead and crea
 To create our ```README.md``` file, do:
 ```echo "# EDIT ME" >> README.md```
 
-## Initialize The Tepository And Add Changes
+## Initialize The Repository And Add Changes
 Now that we are working with more than just an empty directory, we can initialize the repository with:
 ```git init```
 This command will add the basic files required for this directory to be recoginized as a git project.
