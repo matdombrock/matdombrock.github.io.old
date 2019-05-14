@@ -6,7 +6,7 @@ title: Using Git From The Command Line Interface
 ## Introduction
 Git is a powerful tool that is used to track software versions and help teams collaborate on large projects. GitHub is an awesome website where people can share, show off and collaborate on open-source software.
 
-Version control tools like git can be extremely useful. However, to the beginning or intermediate programmer a tool like git can seem pretty daunting and the available tutorials all too often offer a total information overload. This text aims to get you started using GitHub from the command line in as few steps as possible.
+Version control tools like git can be extremely useful. However, to the beginning or intermediate programmer, a tool like git can seem pretty daunting and the available tutorials all too often offer a total information overload. This text aims to get you started using GitHub from the command line in as few steps as possible.
 
 In this tutorial we will be creating a new project (known as a repository) and uploading it to GitHub.
 Here is a cheat-sheet of the commands we will use in this tutorial:
