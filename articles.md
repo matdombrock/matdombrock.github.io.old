@@ -3,8 +3,6 @@ layout: default
 title: Articles
 permalink: /articles/
 ---
-
-A collection of my technical writings for your browsing pleasure. At this time most of these will be programming notes and tutorials. 
 ---
 ## [Using JavaScript Promises]({{ '/a/js-promises' | prepend: site.baseurl }})
 An exploration and explanation of the JavaScript promise system and how to avoid "callback hell".
