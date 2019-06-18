@@ -22,5 +22,5 @@ A quick guide on using Parasails utility functions to re-use front-end Javascrip
 ---
 ## [Git Submodules]({{ '/a/git-submodules' | prepend: site.baseurl }})
 
-
+An overview of how to include one git project within another.
 ---
