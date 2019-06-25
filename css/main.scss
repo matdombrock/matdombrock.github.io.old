@@ -21,9 +21,13 @@ $background-mid-dark: darken($background-color, 5%);
 $background-light: lighten($background-color, 10%);
 $brand-color:      #2ae277;
 $brand-color-light: lighten($brand-color, 25%);
+$brand-color-mid-dark: darken($brand-color, 19%);
 $brand-color-dark:  darken($brand-color, 25%);
 
-$grey-color:       #838383;
+$secondary-color: rgb(104, 83, 143);
+$secondary-color-dark: darken($secondary-color,25%);
+
+$grey-color: #838383;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
@@ -170,6 +174,52 @@ body{
 .contact-button:visited{
     color:$text-color;
 }
+.fork-link{
+    display:inline;
+    color:$text-color;
+    padding:0.25em;
+    font-size:1.25em;
+    transition:color 0.5s, border-color 0.5s;
+    cursor: pointer;
+    color:white;
+}
+.fork-link:visited{
+    color:$text-color;
+}
+.button-full{
+    display: block;
+    text-align:center;
+    color:$text-color;
+    border:0.1em solid $text-color;
+    padding:0.25em;
+    font-size:1.25em;
+    transition:color 0.5s, border-color 0.5s;
+    cursor: pointer;
+    color:$text-color;
+}
+.button-full:hover{
+    color:$brand-color;
+    border-color:$brand-color;
+    text-decoration:none;
+}
+.repo-btn{
+    color:white!important;
+    background:$secondary-color;
+    border-color:$secondary-color;
+    
+}
+.demo-btn{
+    color:white!important;
+    background:$brand-color-mid-dark;
+    border-color:$brand-color-mid-dark;
+}
+.repo-btn:hover, .demo-btn:hover{
+    color:white;
+    border-color:white;
+}
+.repo-btn:visited, .demo-btn:visited{
+    color:rgb(211, 211, 211);
+}
 
 .org-wrap{
     padding:0.5em;
@@ -248,7 +298,10 @@ body{
 .post-list li h2{
     margin: 0;
 }
-
+.port-ss{
+    xborder-bottom:0.25rem dashed rgb(160, 160, 160);
+    margin-bottom:1rem;
+}
 
 @media screen and (max-width: 600px){
     .site-nav .menu-icon > svg path {

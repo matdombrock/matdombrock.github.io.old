@@ -11,7 +11,7 @@ layout: default
 
 The Bleedingham Film Festival in Bellingham Washington has been a staple of the Pacific North West Horror Film community for quite some time now. When I was asked to help "re-vamp" their site I could not have been more excited. 
 
-**The main goals of building their new site were:**
+**The main goals of building their new site were**
 * Archived Film Entries were disorganized and very hard to update. The main cause of this issue is that the entries were submitted from multiple sources such as YouTube and Vimeo ect. This was making it difficult to consolidate them into a unified playlist. They needed a new simplified way of handling these videos.
 * The back-end site management software they were using did not have an easily accessible means of creating a blog, so they were using the landing page to post all of their news and updates. They wanted a real, and very easy to use blogging system. 
 * While they had may talented content creators and graphic artists on the team, no one had much web development knowledge. Because of this, their site had tons of great artwork, but it was not being displayed correctly. They needed someone to help them realize their original design goals.
