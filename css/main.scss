@@ -146,12 +146,14 @@ body{
 .section-text h2{
     color:$text-color;
     margin-bottom:0;
+    border-bottom:0.1rem solid rgb(85, 85, 85);
 }
 .special-text{
     font-style: italic;
     color:$brand-color;
     font-weight: bolder;
 }
+
 .contact-button-wrap{
     text-align:center;
     padding:1em;
