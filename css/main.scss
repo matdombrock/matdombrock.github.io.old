@@ -127,12 +127,12 @@ body{
 .my-pic img{
     max-height:$my-pic-height;
     border-radius:100%;
-    border:0.25em solid white;
-    box-shadow: 0px 0px 25px white;
+    border:0.25em solid rgb(153, 153, 153);
+    xbox-shadow: 0px 0px 25px white;
     transition:box-shadow 0.2s;
 }
 .my-pic img:hover{
-    box-shadow: 0px 0px 100px white;
+    xbox-shadow: 0px 0px 100px white;
 }
 .quote-text{
     font-style: italic;
@@ -302,7 +302,17 @@ body{
     xborder-bottom:0.25rem dashed rgb(160, 160, 160);
     margin-bottom:1rem;
 }
-
+.undraw{
+    max-width:200px;
+    height:auto;
+}
+.undraw-right{
+    float:right;
+    margin-left:1rem;
+}
+.clear{
+    clear:both;
+}
 @media screen and (max-width: 600px){
     .site-nav .menu-icon > svg path {
         fill:$brand-color;
