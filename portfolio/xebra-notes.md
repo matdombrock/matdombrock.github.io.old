@@ -6,7 +6,7 @@ layout: default
 <a class="button-full repo-btn" href="https://github.com/matdombrock/Xebra-Notes" target="_blank">- GitHub Repository -</a>
 <a class="button-full demo-btn"  href="http://mzero.space/Xebra-Notes/" target="_blank">- Interactive Demo -</a>
 <h2 class="post-title">Xebra Notes</h2>
-<hr>
+<hr><br>
 A self-hosted note taking demo app with kaban influenced features.
 
 *Requires no server side access, this is 100% front-end JavaScript.*

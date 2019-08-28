@@ -6,7 +6,7 @@ layout: default
 <a class="button-full repo-btn" href="https://github.com/matdombrock/Tuxearch2" target="_blank">- GitHub Repository -</a>
 <a class="button-full demo-btn"  href="https://mzero.space/Tuxearch2" target="_blank">- Interactive Demo -</a>
 <h2 class="post-title">Tuxearch 2</h2>
-<hr>
+<hr><br>
 A tool for quickly storing and recalling examples for command line utilities. This is a "simple" piece of software and took me about  2-3 hours to write. That being said, this is a re-write of <a href="https://github.com/matdombrock/Tuxearch" target="_blank">an older project</a> I wrote a few years ago. 
 
 *Requires no server side access, this is 100% front-end JavaScript.*

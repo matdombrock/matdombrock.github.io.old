@@ -6,8 +6,8 @@ layout: default
 <a class="button-full repo-btn" href="https://github.com/matdombrock/lifx-zero" target="_blank">- GitHub Repository -</a>
 <a class="button-full demo-btn" href="https://www.npmjs.com/package/@mdombrock/lifx-zero" target="_blank">- NPM Package -</a>
 <h2 class="post-title">Lifx Zero</h2>
-<hr>
-An NodeJS API wrapper for <a href="https://www.lifx.com/"  target="_blank">Lifx Brand Smart Light Bulbs</a>.
+<hr><br>
+A NodeJS API wrapper for <a href="https://www.lifx.com/"  target="_blank">Lifx Brand Smart Light Bulbs</a>.
 
 **The main goals & reasons behind building this were**
 * I think it's really cool that Lifx offers an open API.
